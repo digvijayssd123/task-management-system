@@ -1,0 +1,31 @@
+# Golang Ignore Rules
+bin/
+obj/
+*.exe
+*.log
+vendor/
+*.out
+*.test
+*.swp
+*.sum
+
+# Next.js Ignore Rules
+node_modules/
+.next/
+out/
+.env.local
+.env.development.local
+.env.production.local
+.env.test.local
+.env
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+vercel.json
+dist/
+coverage/
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
